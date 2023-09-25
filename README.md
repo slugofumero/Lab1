@@ -1,6 +1,6 @@
 # Hoteles Mortadela
 
-Una pequeña aplicación web de hotel realizada para la asignatura Tecnologías de Internet de Nueva Generación, de la [ULPGC](https://ulpgc.es/). Usa las siguientes tecnologías:
+Una gran aplicación web de hotel realizada para la asignatura Tecnologías de Internet de Nueva Generación, de la [ULPGC](https://ulpgc.es/). Usa las siguientes tecnologías:
 
 - [Node.js](https://nodejs.org/en/).
 - [Express 4](http://expressjs.com/).
