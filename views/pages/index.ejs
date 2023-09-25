@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+    <div style="margin-top:56px;width:100%;"></div>
+
+    <div class="jumbotron" id="jumbotron-home">
+      <h1 class="display-3">Hoteles Mortadela</h1>
+      <p class="lead">La mejor calidad y el mejor servicio</p>
+      <hr class="m-y-2">
+      <p>Pasa un momento inolvidable</p>
+    </div>
+
+    <div class="container" id="hotelSummary">
+      <div>
+        <h1>Alojamiento Premium</h1>
+        <p class="lead">Echa un vistazo a nuestras habitaciones</p>
+      </div>
+    </div>
+
+    <div class="container" id="about">
+      <div class="card-deck-wrapper">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="img/habitacion.jpg" alt="Card image cap">
+            <div class="card-block card-block-home">
+              <h4 class="card-title">
+                <i class="fa fa-bed"></i> Habitación Doble</h4>
+              <p class="card-text">Habitación doble toda crema para parejas.</p>
+              <a href="/habdoble" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="img/singleHabit.jpg" alt="Card image cap">
+            <div class="card-block card-block-home">
+              <h4 class="card-title">
+                <i class="fa fa-bed"></i> Habitación Simple</h4>
+              <p class="card-text">Habitación simple por si vienes solo.</p>
+              <a href="/habsimple" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="img/beach.jpg" alt="Card image cap">
+            <div class="card-block card-block-home">
+              <h4 class="card-title">
+                <i class="fa fa-sun-o"></i> Excursión a la playa</h4>
+              <p class="card-text">Agua y arena en la playa de La Mortadela.</p>
+              <a href="/playa" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <!-- <div class="card">
+            <img class="card-img-top" src="img/cabana.jpg" alt="Card image cap">
+            <div class="card-block card-block-home">
+              <h4 class="card-title">
+                <i class="fa fa-home"></i> Cabaña Flotante</h4>
+              <p class="card-text">Pero en la piscina.</p>
+              <a href="/cabflotante" class="btn btn-primary">Ver más</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div id="hotelFooter">
+      <div>
+        <h2>¡Aceptamos pago con Bitcoin!</h2>
+        <p class="lead">Reserva ya</p>
+        <form action="https://bitpay.com/checkout" method="post">
+          <input type="hidden" name="action" value="cartAdd" />
+          <input type="hidden" name="data" value="MX8VruNipjXemLSmPNJdjq" />
+          <input type="image" src="https://bitpay.com/img/button1.png" border="0" name="submit" alt="BitPay, pay with bitcoins.">
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
